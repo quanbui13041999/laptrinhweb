@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Chi tiết user</title>
+
+    <link rel="stylesheet" href="./public/css/style.css">
+
+<style>
+
+.detail-box{
+    width: 350px;
+    margin: 40px auto;
+    border: 1px solid #888;
+    padding: 25px;
+}
+
+.detail-box h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.detail-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.detail-row label{
+    width: 100px;
+}
+
+.btn{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.btn button{
+    background: #0b66d3;
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    cursor: pointer;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        <h3>Lập trình web</h3>
+    </div>
+
+    <!-- Menu -->
+    <div class="menu">
+        <a href="index.html">Home</a> |
+        <a href="login.html">Đăng xuất</a>
+    </div>
+
+    <!-- Detail -->
+    <div class="detail-box">
+
+        <h2>Màn hình chi tiết</h2>
+
+        <div class="detail-row">
+            <label>Username</label>
+            <span>test1</span>
+        </div>
+
+        <div class="detail-row">
+            <label>Email</label>
+            <span>test1@gmail.com</span>
+        </div>
+
+        <div class="btn">
+            <button onclick="location.href='update.html'">Chỉnh sửa</button>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        Lập trình web ©01/2024
+    </div>
+
+</div>
+
+</body>
+</html>
