@@ -1,5 +1,3 @@
-<<<<<<< HEAD
+
 textconflict main
-=======
-conflict 123
->>>>>>> test_conflict
+
